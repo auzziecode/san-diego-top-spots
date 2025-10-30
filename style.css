@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: skyblue;
+}
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 70%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #d4d3d3;
+}
+
+tr:hover {
+    background-color: peachpuff;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 5px;
+    color: buttontext;
+    background-color: wheat;
+    text-decoration: none;
+}
+
+a.button:hover {
+    box-shadow: 0 0 0 4px skyblue;
+}
